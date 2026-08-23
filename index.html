@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car Dodge Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- START MENU -->
+    <div id="startMenu">
+
+        <h1>🚗 CAR DODGE</h1>
+
+        <p>🚙 Dodge the enemy cars!</p>
+
+        <p id="menuHighScore">
+            🏆 High Score: 0
+        </p>
+
+        <button id="playBtn">
+            ▶ PLAY GAME
+        </button>
+
+    </div>
+
+
+    <!-- GAME -->
+    <div id="game">
+
+        <!-- SCORE -->
+        <div id="score">
+            Score: 0
+        </div>
+
+
+        <!-- PLAYER CAR -->
+        <div id="player">
+
+            <div class="window"></div>
+
+            <div class="headlight headlight-left"></div>
+            <div class="headlight headlight-right"></div>
+
+            <div class="taillight taillight-left"></div>
+            <div class="taillight taillight-right"></div>
+
+            <div class="wheel wheel-left"></div>
+            <div class="wheel wheel-right"></div>
+
+        </div>
+
+
+        <!-- GAME OVER -->
+        <div id="gameOver">
+
+            <h2>💥 GAME OVER 💥</h2>
+
+            <p id="finalScore">
+                Score: 0
+            </p>
+
+            <p id="bestScore">
+                🏆 Best: 0
+            </p>
+
+            <button id="restartBtn">
+                🔄 Restart
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- MOBILE CONTROLS -->
+    <div id="mobileControls">
+
+        <button id="leftBtn">
+            ⬅️
+        </button>
+
+        <button id="rightBtn">
+            ➡️
+        </button>
+
+    </div>
+
+
+    <script src="game.js"></script>
+
+</body>
+</html>
